@@ -21,12 +21,10 @@ Each example lives in its own folder under `apps/` and includes its own setup in
 
 ```text
 ai_examples/
-├── apps/
-│   └── ai-legal-doc-qna/
-│       ├── backend/
-│       ├── frontend/
-│       └── README.md
-└── README.md
+|-- apps/
+|   |-- ai-legal-doc-qna/
+|   |-- ai-resume-screener/
+`-- README.md
 ```
 
 ## Available examples
@@ -34,6 +32,7 @@ ai_examples/
 | Example | What it demonstrates |
 | --- | --- |
 | [AI Legal Document Q&A](apps/ai-legal-doc-qna/README.md) | A full-stack PDF question-answering app with text extraction, sentence embeddings, and FAISS semantic search. |
+| [AI Resume Screener](apps/ai-resume-screener/README.md) | A React and FastAPI learning app that extracts resume PDF text and compares it semantically with a job description. |
 
 ## Running an example
 
