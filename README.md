@@ -25,7 +25,8 @@ ai_examples/
 |   |-- ai-legal-doc-qna/
 |   |-- ai-resume-screener/
 |   |-- finance-ai-frontend/
-|   `-- gemini-chat-frontend/
+|   |-- gemini-chat-frontend/
+|   `-- tic-tac-toe-against-ai/
 `-- README.md
 ```
 
@@ -37,6 +38,7 @@ ai_examples/
 | [AI Resume Screener](apps/ai-resume-screener/README.md) | A React and FastAPI learning app that extracts resume PDF text and compares it semantically with a job description. |
 | [Finance AI Frontend](apps/finance-ai-frontend/README.md) | A React finance dashboard for transaction tracking, summaries, charts, and optional AI budgeting insights. |
 | [Gemini Chat Frontend](apps/gemini-chat-frontend/README.md) | A React chat interface with local conversation history, responsive controls, and a configurable AI chat-service endpoint. |
+| [Tic Tac Toe Against AI](apps/tic-tac-toe-against-ai/README.md) | A responsive React game for playing classic Tic Tac Toe against a computer opponent. |
 
 ## Running an example
 
