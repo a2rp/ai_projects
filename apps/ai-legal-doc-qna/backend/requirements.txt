@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-python-multipart
-PyMuPDF
-sentence-transformers
-transformers
-torch
-faiss-cpu
-scikit-learn
