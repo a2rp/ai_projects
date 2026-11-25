@@ -1,26 +1,23 @@
-# AI Examples
+# AI Projects
 
-A growing collection of practical, self-contained AI examples. Each project is organized so you can explore one idea, run it locally, and understand how its main pieces fit together.
+A curated collection of complete, polished projects that use artificial intelligence to solve practical problems. Each project is kept self-contained, with its own interface, services, documentation, and setup instructions where appropriate.
 
-## What belongs here
+## Project collection
 
-Examples may cover topics such as:
+Projects may explore:
 
-- LLM and chat applications
-- Retrieval-augmented generation (RAG) and search
-- AI agents and tool use
-- Model API integrations and inference services
-- Image, audio, and other multimodal workflows
-- Evaluation, prompt design, and responsible handling of model output
+- LLM-powered applications and chat interfaces
+- Document processing, question answering, and semantic search
+- AI-assisted workflows and recommendations
+- Model integrations, APIs, and multimodal experiences
+- Practical evaluation and responsible handling of AI output
 
-The collection can include frontend demos, backend APIs, and full-stack projects. Each example should stay focused on a clear learning goal.
+The repository includes frontend applications and full-stack projects. Each project should have a clear purpose and be usable on its own.
 
 ## Repository layout
 
-Each example lives in its own folder under `apps/` and includes its own setup instructions and dependencies where practical.
-
 ```text
-ai_examples/
+ai_projects/
 |-- apps/
 |   |-- ai-legal-doc-qna/
 |   |-- ai-resume-screener/
@@ -30,34 +27,24 @@ ai_examples/
 `-- README.md
 ```
 
-## Available examples
+## Available projects
 
-| Example | What it demonstrates |
+| Project | What it includes |
 | --- | --- |
 | [AI Legal Document Q&A](apps/ai-legal-doc-qna/README.md) | A full-stack PDF question-answering app with text extraction, sentence embeddings, and FAISS semantic search. |
-| [AI Resume Screener](apps/ai-resume-screener/README.md) | A React and FastAPI learning app that extracts resume PDF text and compares it semantically with a job description. |
+| [AI Resume Screener](apps/ai-resume-screener/README.md) | A React and FastAPI app that extracts resume PDF text and compares it semantically with a job description. |
 | [Finance AI Frontend](apps/finance-ai-frontend/README.md) | A React finance dashboard for transaction tracking, summaries, charts, and optional AI budgeting insights. |
 | [Gemini Chat Frontend](apps/gemini-chat-frontend/README.md) | A React chat interface with local conversation history, responsive controls, and a configurable AI chat-service endpoint. |
 | [Tic Tac Toe Against AI](apps/tic-tac-toe-against-ai/README.md) | A responsive React game for playing classic Tic Tac Toe against a computer opponent. |
 
-## Running an example
+## Running a project
 
-Start in the example's folder and follow its `README.md`. Examples may use different runtimes, packages, model providers, or local services, so their setup commands and requirements can vary.
+Choose a project under `apps/` and follow its README. Projects can use different runtimes, dependencies, environment variables, model providers, and local services. Keep credentials in local environment files and never commit real secrets.
 
-Before running an example, check whether it needs API keys, a model download, or a database. Keep credentials in a local environment file, use the example's `.env.example` when provided, and never commit real secrets.
+## Adding a project
 
-## Adding an example
-
-Give each project a focused folder and document:
-
-1. What the example demonstrates.
-2. Required software, services, and environment variables.
-3. How to install dependencies and run it locally.
-4. How to try the main workflow, with sample input where useful.
-5. Any limitations, provider costs, or data-handling considerations that affect use.
-
-Keep examples independently understandable and avoid relying on undocumented setup from another folder.
+Each project should explain its purpose, requirements, environment variables, setup, and main workflow. Include limitations and data-handling notes where they affect use. Keep projects independently understandable and avoid relying on undocumented setup elsewhere in the repository.
 
 ## License
 
-Check each example's folder for its license and reuse terms. If an example has no license file, ask its maintainer before reusing or redistributing its code.
+This repository is licensed under the MIT License. A project may include its own license with additional or different terms; follow the license in that project's directory when reusing it.
