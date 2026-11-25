@@ -24,7 +24,8 @@ ai_examples/
 |-- apps/
 |   |-- ai-legal-doc-qna/
 |   |-- ai-resume-screener/
-|   `-- finance-ai-frontend/
+|   |-- finance-ai-frontend/
+|   `-- gemini-chat-frontend/
 `-- README.md
 ```
 
@@ -35,6 +36,7 @@ ai_examples/
 | [AI Legal Document Q&A](apps/ai-legal-doc-qna/README.md) | A full-stack PDF question-answering app with text extraction, sentence embeddings, and FAISS semantic search. |
 | [AI Resume Screener](apps/ai-resume-screener/README.md) | A React and FastAPI learning app that extracts resume PDF text and compares it semantically with a job description. |
 | [Finance AI Frontend](apps/finance-ai-frontend/README.md) | A React finance dashboard for transaction tracking, summaries, charts, and optional AI budgeting insights. |
+| [Gemini Chat Frontend](apps/gemini-chat-frontend/README.md) | A React chat interface with local conversation history, responsive controls, and a configurable AI chat-service endpoint. |
 
 ## Running an example
 
