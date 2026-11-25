@@ -17,16 +17,23 @@ The collection can include frontend demos, backend APIs, and full-stack projects
 
 ## Repository layout
 
-Each example will live in its own folder under `apps/` and include its own setup instructions and dependencies where practical.
+Each example lives in its own folder under `apps/` and includes its own setup instructions and dependencies where practical.
 
 ```text
 ai_examples/
 ├── apps/
-│   └── example-name/
-│       ├── README.md
-│       └── ...
+│   └── ai-legal-doc-qna/
+│       ├── backend/
+│       ├── frontend/
+│       └── README.md
 └── README.md
 ```
+
+## Available examples
+
+| Example | What it demonstrates |
+| --- | --- |
+| [AI Legal Document Q&A](apps/ai-legal-doc-qna/README.md) | A full-stack PDF question-answering app with text extraction, sentence embeddings, and FAISS semantic search. |
 
 ## Running an example
 
